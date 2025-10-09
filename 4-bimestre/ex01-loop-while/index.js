@@ -5,5 +5,5 @@ while(resultado < 10){
     console.log(resultado)
 }
 console.log(`a variavel "resultado" é igual a ${resultado}`)
-// === NÃO MODIFIQUE NADA ABAIXO ============
+// === NÃO MODIFIQUE NADA ABAIXO =============
 module.exports = resultado
