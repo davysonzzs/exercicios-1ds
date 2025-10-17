@@ -13,7 +13,7 @@ let producao3 = 0
 let producao4 = 0
 let producao5 = 0
 let meta
-let continuarProducao
+let continuarProducao 
 let total = 0
 
 do{
@@ -81,9 +81,10 @@ do{
         console.log(`Total geral: ${total}`)
         total = 0
     }
-
-    // NOTA: Por algum motivo o tolowerCase n funciona na biblioteca do prompt-sync, quando eu add o tolowercase ele so quebra o codigo, ent eu add uma margem de erro
-    continuarProducao = prompt("Deseja simular outro turno? S/N: ")
-}while(continuarProducao == "S" || continuarProducao == "s")
+    
+    do{
+        continuarProducao = prompt("Deseja simular outro turno? S/N: ").toUpperCase()
+    } while(continuarProducao === "" || continuarProducao === null)
+}while(continuarProducao == "S")
 
 console.log("Encerrando sistema de produção")
