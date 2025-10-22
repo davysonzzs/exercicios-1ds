@@ -41,8 +41,8 @@ do{
     } while(continuarProducao === "" || continuarProducao === null)
 }while(continuarProducao == "S")
 
-console.log("Encerrando sistema de produção")
 console.log("Resumo dos dias anteriores:")
 console.log(linhas)
 // tava pedindo no teste pra mostrar o total geral, mas no readme n tinha nada falando sobre (ou eu sou cego :| )
 console.log(`Total geral: ${total} peças fabricadas!`)
+console.log("Encerrando sistema de produção")
