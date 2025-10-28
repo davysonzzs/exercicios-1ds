@@ -18,12 +18,12 @@ for(let i = 1; diasRegistrados >= i; i++){
 
 console.log("--- RELATÓRIO DE PRODUÇÃO ---")
 console.log(`Produções registradas: [ ${producoes} ]`)
-let somar = 0
+let total = 0
 for(let i = 0; i < producoes.length; i++){
-    somar += producoes[i]
+    total += producoes[i]
 }
-console.log(`Total produzido: ${somar} peças`)
-let mediaDiaria = somar / producoes.length
+console.log(`Total produzido: ${total} peças`)
+let mediaDiaria = total / producoes.length
 console.log(`Média diária: ${mediaDiaria}`)
 
 let maior = producoes[0]
