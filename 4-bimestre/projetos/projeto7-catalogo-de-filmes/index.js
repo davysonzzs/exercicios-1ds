@@ -1,28 +1,28 @@
 // CRIE UMA LÓGICA ABAIXO
-const prompt = require("prompt-sync")()
+//const prompt = require("prompt-sync")()
 
-let filme1 = {titulo: ""}
-let filme2 = {titulo: ""}
-let filme3 = {titulo: ""}
-let filme4 = {titulo: ""}
-let filme5 = {titulo: ""}
-let filme6 = {titulo: ""}
-let filme7 = {titulo: ""}
-let filme8 = {titulo: ""}
-let filme9 = {titulo: ""}
-let filme10 = {titulo: ""}
+let filme1 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme2 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme3 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme4 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme5 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme6 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme7 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme8 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme9 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme10 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
 
 const coisa = {filme1, filme2, filme3, filme4, filme5, filme6, filme7, filme8, filme9, filme10}
 
-for(let i = 1; i <= 10; i++){
-    const filme = coisa[`filme${i}`]
+// for(let i = 1; i <= 10; i++){
+//     const filme = coisa[`filme${i}`]
 
 
-    filme.titulo = prompt(`qual o titulo do filme ${i}? `)
-    filme.genero = prompt(`qual o genero do filme ${i}? `)
-    filme.ano = parseInt(prompt(`qual o ano de lançamento do filme ${i}? `))
-    filme.avaliacao = parseFloat(prompt(`qual a avaliação do filme ${i}? `))
-}
+//     filme.titulo = prompt(`qual o titulo do filme ${i}? `)
+//     filme.genero = prompt(`qual o genero do filme ${i}? `)
+//     filme.ano = parseInt(prompt(`qual o ano de lançamento do filme ${i}? `))
+//     filme.avaliacao = parseFloat(prompt(`qual a avaliação do filme ${i}? `))
+// }
 const avaliacoes = [filme1.avaliacao, filme2.avaliacao, filme3.avaliacao, filme4.avaliacao, filme5.avaliacao, filme6.avaliacao, filme7.avaliacao, filme8.avaliacao, filme9.avaliacao, filme10.avaliacao]
 let maior = avaliacoes[0]
 for(let i = 1; i < avaliacoes.length; i++){
