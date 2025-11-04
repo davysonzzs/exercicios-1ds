@@ -1,16 +1,16 @@
 // CRIE UMA LÓGICA ABAIXO
 //const prompt = require("prompt-sync")()
 
-let filme1 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme2 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme3 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme4 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme5 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme6 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme7 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme8 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme9 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
-let filme10 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacoes: 10}
+let filme1 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme2 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme3 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme4 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme5 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme6 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme7 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme8 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme9 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
+let filme10 = {titulo: "coisa", genero: "kkk", ano: 2009, avaliacao: 10}
 
 const coisa = {filme1, filme2, filme3, filme4, filme5, filme6, filme7, filme8, filme9, filme10}
 
